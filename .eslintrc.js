@@ -4,7 +4,13 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier', 'plugin:jest-dom/recommended'],
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'prettier',
+    'plugin:jest-dom/recommended',
+    'plugin:react/jsx-runtime',
+  ],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
