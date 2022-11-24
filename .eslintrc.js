@@ -4,12 +4,12 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier'],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier', 'plugin:jest-dom/recommended'],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react'],
+  plugins: ['react', 'jest-dom'],
   rules: {},
 };
